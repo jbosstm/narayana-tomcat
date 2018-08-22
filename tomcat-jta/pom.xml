@@ -30,7 +30,6 @@
         <version>5.9.1.Final-SNAPSHOT</version>
     </parent>
     <artifactId>narayana-tomcat</artifactId>
-    <version>5.0.1.Final-SNAPSHOT</version>
     <name>Narayana: Tomcat JTA integration</name>
     <properties>
         <jvm.args.byteman>
@@ -156,7 +155,7 @@
         </dependency>
         <dependency>
             <groupId>org.jboss.narayana</groupId>
-            <version>${version.org.jboss.narayana}</version>
+            <version>${project.version}</version>
             <artifactId>test-utils</artifactId>
             <scope>test</scope>
         </dependency>
