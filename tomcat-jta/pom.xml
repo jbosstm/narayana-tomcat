@@ -154,7 +154,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.jboss.narayana</groupId>
+            <groupId>org.jboss.narayana.tomcat</groupId>
             <version>${project.version}</version>
             <artifactId>test-utils</artifactId>
             <scope>test</scope>
