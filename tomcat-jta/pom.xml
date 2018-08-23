@@ -27,11 +27,13 @@
     <parent>
         <groupId>org.jboss.narayana.tomcat</groupId>
         <artifactId>tomcat-all</artifactId>
-        <version>5.9.1.Final-SNAPSHOT</version>
+        <version>5.0.1.Final-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>narayana-tomcat</artifactId>
     <name>Narayana: Tomcat JTA integration</name>
     <properties>
+        <jvm.args.debug></jvm.args.debug>
         <jvm.args.byteman>
             -Dorg.jboss.byteman.verbose -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.byteman.transform.all
             -javaagent:${project.build.directory}/lib/byteman.jar=script:${project.build.directory}/test-classes/scripts.btm,listener:true
