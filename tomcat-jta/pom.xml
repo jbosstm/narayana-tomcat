@@ -457,6 +457,7 @@
                     </plugins>
                 </pluginManagement>
             </build>
+            <dependencies>
               <dependency>
                   <groupId>postgresql</groupId>
                   <artifactId>postgresql</artifactId>
